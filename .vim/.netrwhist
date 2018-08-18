@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/private/etc/ssh'
+let g:netrw_dirhist_2='/Users/katsuki/.ssh'
+let g:netrw_dirhist_3='/Users/katsuki'
+let g:netrw_dirhist_4='/Users/katsuki/.ssh'
+let g:netrw_dirhist_5='/Users/katsuki/work/peraichi/peraichi/app/webroot/node_modules'
+let g:netrw_dirhist_6='/Users/katsuki/work/peraichi/peraichi/app/webroot/node_modules/gulp-notify'
+let g:netrw_dirhist_7='/Users/katsuki/.vim/bundle'
