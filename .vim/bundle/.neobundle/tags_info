@@ -4,6 +4,7 @@ emmet-vim
 html5.vim
 jedi-vim
 neobundle.vim
+nerdtree
 unite.vim
 vim-autopep8
 vim-css3-syntax

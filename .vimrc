@@ -54,6 +54,18 @@ NeoBundle 'tpope/vim-fugitive'
 " NeoBundle 'taketwo/vim-ros'
 
 
+
+set nocompatible
+filetype off
+
+if has('vim_starting')
+    set runtimepath+=~/.vim/bundle/neobundle.vim
+endif
+
+
+"insert here your Neobundle plugins"
+NeoBundle 'scrooloose/nerdtree'
+
 call neobundle#end()
 
 " Required:
@@ -64,5 +76,7 @@ filetype plugin indent on
 NeoBundleCheck
 
 
+
+set hls
 set number
 syntax enable
