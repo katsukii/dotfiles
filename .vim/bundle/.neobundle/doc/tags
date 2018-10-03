@@ -26,6 +26,7 @@
 'NERDTreeWinPos'	NERDTree.txt	/*'NERDTreeWinPos'*
 'NERDTreeWinSize'	NERDTree.txt	/*'NERDTreeWinSize'*
 'loaded_nerd_tree'	NERDTree.txt	/*'loaded_nerd_tree'*
+:EditorConfigReload	editorconfig.txt	/*:EditorConfigReload*
 :Emmet	emmet.txt	/*:Emmet*
 :EmmetInstall	emmet.txt	/*:EmmetInstall*
 :NERDTree	NERDTree.txt	/*:NERDTree*
@@ -226,6 +227,7 @@
 <Plug>(vimshell_split_create)	vimshell.txt	/*<Plug>(vimshell_split_create)*
 <Plug>(vimshell_split_switch)	vimshell.txt	/*<Plug>(vimshell_split_switch)*
 <Plug>(vimshell_switch)	vimshell.txt	/*<Plug>(vimshell_switch)*
+EditorConfig#AddNewHook()	editorconfig.txt	/*EditorConfig#AddNewHook()*
 Emmet	emmet.txt	/*Emmet*
 FugitiveHead(...)	fugitive.txt	/*FugitiveHead(...)*
 FugitiveStatusline()	fugitive.txt	/*FugitiveStatusline()*
@@ -339,6 +341,14 @@ caw-wrap-operator	caw.txt	/*caw-wrap-operator*
 caw-zeropos-action	caw.txt	/*caw-zeropos-action*
 caw-zeropos-operator	caw.txt	/*caw-zeropos-operator*
 caw.txt	caw.txt	/*caw.txt*
+editorconfig-advanced	editorconfig.txt	/*editorconfig-advanced*
+editorconfig-commands	editorconfig.txt	/*editorconfig-commands*
+editorconfig-contents	editorconfig.txt	/*editorconfig-contents*
+editorconfig-hook	editorconfig.txt	/*editorconfig-hook*
+editorconfig-installation	editorconfig.txt	/*editorconfig-installation*
+editorconfig-overview	editorconfig.txt	/*editorconfig-overview*
+editorconfig-settings	editorconfig.txt	/*editorconfig-settings*
+editorconfig.txt	editorconfig.txt	/*editorconfig.txt*
 emmet	emmet.txt	/*emmet*
 emmet-#	emmet.txt	/*emmet-#*
 emmet-$	emmet.txt	/*emmet-$*
@@ -464,6 +474,13 @@ fugitive-statusline	fugitive.txt	/*fugitive-statusline*
 fugitive-y_CTRL-G	fugitive.txt	/*fugitive-y_CTRL-G*
 fugitive-~	fugitive.txt	/*fugitive-~*
 fugitive.txt	fugitive.txt	/*fugitive.txt*
+g:EditorConfig_core_mode	editorconfig.txt	/*g:EditorConfig_core_mode*
+g:EditorConfig_exclude_patterns	editorconfig.txt	/*g:EditorConfig_exclude_patterns*
+g:EditorConfig_exec_path	editorconfig.txt	/*g:EditorConfig_exec_path*
+g:EditorConfig_max_line_indicator	editorconfig.txt	/*g:EditorConfig_max_line_indicator*
+g:EditorConfig_preserve_formatoptions	editorconfig.txt	/*g:EditorConfig_preserve_formatoptions*
+g:EditorConfig_python_files_dir	editorconfig.txt	/*g:EditorConfig_python_files_dir*
+g:EditorConfig_verbose	editorconfig.txt	/*g:EditorConfig_verbose*
 g:caw_I_sp	caw.txt	/*g:caw_I_sp*
 g:caw_I_sp_blank	caw.txt	/*g:caw_I_sp_blank*
 g:caw_I_startinsert_at_blank_line	caw.txt	/*g:caw_I_startinsert_at_blank_line*

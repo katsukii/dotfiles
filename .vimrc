@@ -45,14 +45,14 @@ let g:quickrun_config.processing =  {
       \     'exec': '%c --sketch=$PWD/ --output=/Library/Processing --run --force',
       \   }
 NeoBundle 'hail2u/vim-css3-syntax'
-NeoBundle 'taichouchou2/html5.vim'
+NeoBundle 'othree/html5.vim'
 NeoBundle 'mattn/emmet-vim'
 NeoBundle 'lilydjwg/colorizer'
 NeoBundle 'tpope/vim-fugitive'
+NeoBundle 'editorconfig/editorconfig-vim'
 :set statusline+=%{fugitive#statusline()} 
 " NeoBundle 'itchyny/lightline.vim'
 " NeoBundle 'taketwo/vim-ros'
-
 
 
 set nocompatible
@@ -80,3 +80,5 @@ NeoBundleCheck
 set hls
 set number
 syntax enable
+set fileformats=unix,dos,mac
+set fileencodings=utf-8,sjis
