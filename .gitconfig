@@ -1,0 +1,20 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[core]
+	editor = vim
+[alias]
+	st = status
+	b = branch
+	co = checkout
+	cob = !git checkout -b
+	delete-merged-branches = !git branch --merged | grep -vE '^master$|^develop$' | xargs -I % git branch -d %
+	delete-all-branches = !git branch | grep -vE '^master$|^develop$' | xargs -I % git branch -D %
+	po = !git pull origin
+	pom = !git pull origin master
+	podev = !git pull origin dev
+
+[sendpack]
+	sideband = false

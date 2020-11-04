@@ -11,25 +11,25 @@ if has('vim_starting')
 endif
 
 " Required:
-call neobundle#begin(expand('~/.vim/bundle/'))
+" call neobundle#begin(expand('~/.vim/bundle/'))
 
 " Let NeoBundle manage NeoBundle
 " Required:
-NeoBundleFetch 'Shougo/neobundle.vim'
+" NeoBundleFetch 'Shougo/neobundle.vim'
 
 " My Bundles here:
 " Refer to |:NeoBundle-examples|.
 " Note: You don't set neobundle setting in .gvimrc!
- 
-NeoBundle 'Shougo/vimproc.vim', {
-			\ 'build' : {
-			\     'windows' : 'tools\\update-dll-mingw',
-			\     'cygwin' : 'make -f make_cygwin.mak',
-			\     'mac' : 'make',
-			\     'linux' : 'make',
-			\     'unix' : 'gmake',
-			\    },
-			\ }
+
+" NeoBundle 'Shougo/vimproc.vim', {
+" 			\ 'build' : {
+" 			\     'windows' : 'tools\\update-dll-mingw',
+" 			\     'cygwin' : 'make -f make_cygwin.mak',
+" 			\     'mac' : 'make',
+" 			\     'linux' : 'make',
+" 			\     'unix' : 'gmake',
+" 			\    },
+" 			\ }
 NeoBundle 'Shougo/vimshell'
 NeoBundle 'Shougo/unite.vim'
 NeoBundle 'davidhalter/jedi-vim'
@@ -50,7 +50,7 @@ NeoBundle 'mattn/emmet-vim'
 NeoBundle 'lilydjwg/colorizer'
 NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'editorconfig/editorconfig-vim'
-:set statusline+=%{fugitive#statusline()} 
+:set statusline+=%{fugitive#statusline()}
 " NeoBundle 'itchyny/lightline.vim'
 " NeoBundle 'taketwo/vim-ros'
 
@@ -82,3 +82,4 @@ set number
 syntax enable
 set fileformats=unix,dos,mac
 set fileencodings=utf-8,sjis
+set tabstop=4

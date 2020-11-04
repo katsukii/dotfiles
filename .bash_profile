@@ -3,6 +3,6 @@ if [ -f ~/.bashrc ]; then
 fi
 
 export RBENV_ROOT=$HOME/.rben
-
+export PATH=$HOME/.nodebrew/current/bin:$PATH
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 eval "$(rbenv init -)"
